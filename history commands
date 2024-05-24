@@ -1,0 +1,89 @@
+1  docker version
+    2  docker run -d -p 8080:8080 -p 50000:50000 --name my-jenkins -v jenkins_home:/var/jenkins_home custom-jenkins:latest
+    3  systemctl status docker.service
+    4  docker search jenkins
+    5  docker run -d -p 8080:8080 -p 50000:50000 --name my-jenkins jenkins/jenkins:lts
+    6  docker ps
+    7  docker ps -a
+    8  jenkins -v
+    9  jenkins login
+   10  clear
+   11  docker system df -v
+   12  docker system prune --all
+   13  docker ps -a
+   14  docker images
+   15  vim jenkins.sh
+   16  chmod +x jenkins.sh 
+   17  ./jenkins.sh 
+   18  cat /var/lib/jenkins/workspace/testing
+   19  cd /var/lib/jenkins/workspace/testing
+   20  ls
+   21  jenkins version
+   22  yum uninstall jenkins -y
+   23  apt-get update -y
+   24  cd ..
+   25  ll
+   26  apt uninstall jenkins -y
+   27  vim uninstalljenkins.sh
+   28  chmod +x uninstalljenkins.sh 
+   29  ./uninstalljenkins.sh 
+   30  cd /home
+   31  ll
+   32  cd varaprasad/
+   33  ll
+   34  vim jenkins.sh
+   35  chmod +x jenkins.
+   36  chmod +x jenkins.sh
+   37  ./jenkins.sh 
+   38  vi jenkins.sh 
+   39  ./jenkins.sh 
+   40  vi jenkins.sh
+   41  ./jenkins.sh
+   42  cat /var/lib/jenkins/secrets/initialAdminPassword
+   43  vi jenkins.sh'
+   44  vi jenkins.sh
+   45  ./jenkins.sh
+   46  cat /var/lib/jenkins/secrets/initialAdminPassword
+   47  systemctl start docker.service
+   48  ip addr show
+   49  docker swarm init
+   50  docker node ls
+   51  docker nodes ls
+   52  docker node ls
+   53  hostname -I
+   54  cat /var/lib/jenkins/workspace/docker
+   55  cd /var/lib/jenkins/workspace/docker
+   56  ll
+   57  chmod 777 var/run/docker.sock
+   58  chmod 777 /var/run/docker.sock
+   59  systemctl daemon-reload
+   60  systemctl start docker.service
+   61  docker ps
+   62  docekr ps -a
+   63  docker ps -a
+   64  docker service ls
+   65  docker stack ls
+   66  docker service ls
+   67  docker ps
+   68  docker system df -v
+   69  docker-compose -v
+   70  apt install docker-compose -y
+   71  docker-compose -v
+   72  docker system df -v
+   73  docker ps
+   74  docker system prune --all
+   75  docker service ls
+   76  docker stack ls
+   77  docker strrack rm personal
+   78  docker stack rm personal
+   79  chmod 777 /var/run/docker.sock
+   80  systemctl daemon-reload
+   81  systemctl start docker.service
+   82  docker node ls
+   83  docker sevices ls
+   84  docekr services ls
+   85  docker services ls
+   86  docker service ls
+   87  docker ps
+   88  docker stack ls
+   89  docker-compose up -d
