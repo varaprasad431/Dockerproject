@@ -3,20 +3,20 @@ services:
   tarin:
     image: rahamshaik/phonepaytrain:v1
     ports:
-      - "8005:80"
+      - "81:80"
     deploy:
       replicas: 3
 
   movie:
     image: rahamshaik/phonepaymovie:v1
     ports:
-      - "8006:80"
+      - "82:80"
     deploy:
       replicas: 3
       
   recharge:
     image: rahamshaik/phonepayrecharge:v1
     ports:
-      - "8007:80"
+      - "83:80"
     deploy:
       replicas: 3
